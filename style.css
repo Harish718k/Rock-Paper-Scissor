@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+header{
+    padding: 20px 0px;
+}
+
+header > h1:nth-child(1){
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.container{
+    padding: 20px 0px;
+}
+
+.screen span{
+    font-size: 20px;
+}
+
+.screen{
+    background-color: aquamarine;
+    position: relative;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+.screen >  div > div img{
+    width: 90%;
+    filter: drop-shadow(0px 0px 20px rgb(255, 255, 255));
+} 
+
+.screen > div:nth-child(1){
+    border-right: 1px solid;
+}
+
+.result{
+    position: absolute;
+    top: -26px;
+    left: 35%;
+}
+
+.result p{
+    padding: 0px 50px;
+    border: 1px solid black;
+}
+
+.choice img{
+    width: 95%;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.scoreCard p{
+    margin: 0px;
+}
+
+.scoreCard h1{
+    font-size: 3rem;
+}
+
+.scoreCard > div:nth-child(2){
+    border-right: 2px solid rgb(44, 44, 44);
+}
+
+.scoreCard > div:nth-child(4) p{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
